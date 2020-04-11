@@ -11,6 +11,7 @@ object Form1: TForm1
   FormFactor.Devices = [Desktop]
   OnCreate = FormCreate
   OnFocusChanged = FormFocusChanged
+  OnVirtualKeyboardShown = FormVirtualKeyboardShown
   DesignerMasterStyle = 0
   object RecBackground: TALRectangle
     Align = Client

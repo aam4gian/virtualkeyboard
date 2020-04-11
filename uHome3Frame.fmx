@@ -39,6 +39,7 @@ object FrameHome3: TFrameHome3
     Size.Height = 610.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
+    OnViewportPositionChange = ALVertScrollBox1ViewportPositionChange
     object ALEdit1: TALEdit
       Align = Top
       Padding.Left = 10.000000000000000000

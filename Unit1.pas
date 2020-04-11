@@ -50,6 +50,8 @@ type
     procedure btnHome3Tap(Sender: TObject; const Point: TPointF);
     procedure btnHome4Tap(Sender: TObject; const Point: TPointF);
     procedure btnHome5Tap(Sender: TObject; const Point: TPointF);
+    procedure FormVirtualKeyboardShown(Sender: TObject;
+      KeyboardVisible: Boolean; const Bounds: TRect);
   private
     { Private declarations }
     FHome1Frame: TFrameInfo<TFrameHome1>;
@@ -95,6 +97,7 @@ end;
 procedure TForm1.btnHome1Tap(Sender: TObject; const Point: TPointF);
 begin
   TabHome.SetActiveTabWithTransition(TabHome1,TALTabTransition.Slide);
+  FHome1Frame.Frame.InitFrame;
 end;
 
 procedure TForm1.btnHome2Tap(Sender: TObject; const Point: TPointF);
@@ -125,6 +128,14 @@ begin
   AHome4.Show();
   AHome5.Show();
   TabHome.SetActiveTabWithTransition(TabHome1,TALTabTransition.Slide);
+  ShadEF.Parent := btnHome1;
+  ShadEF.enabled := True;
+  btnHome1.Repaint;
+  FHome1Frame.Frame.InitFrame;
+  FHome2Frame.Frame.InitFrame;
+  FHome3Frame.Frame.InitFrame;
+  FHome4Frame.Frame.InitFrame;
+  FHome5Frame.Frame.InitFrame;
 end;
 
 procedure TForm1.FormFocusChanged(Sender: TObject);
@@ -138,7 +149,14 @@ begin
     aFocused := TControl(Focused.GetObject);
     aFocusRect := aFocused.AbsoluteRect;
     aPoint := aFocused.LocalToAbsolute(PointF(0,0));
+    FHome1Frame.Frame.SetYFocus(aPoint.Y, aFocusRect.Height);
   end;
+end;
+
+procedure TForm1.FormVirtualKeyboardShown(Sender: TObject;
+  KeyboardVisible: Boolean; const Bounds: TRect);
+begin
+  FHome1Frame.Frame.SetFVKBoundHeight(Bounds.Height);
 end;
 
 function TForm1.GetHome1: TFrameInfo<TFrameHome1>;
