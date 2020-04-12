@@ -112,7 +112,7 @@
         <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <Icns_MainIcns>$(BDS)\bin\delphi_PROJECTICNS.icns</Icns_MainIcns>
         <SanitizedProjectName>VKeyboard</SanitizedProjectName>
-        <DCC_UnitSearchPath>..\..\komponen\alcinoe-master-lates\references\embarcadero\rio\10_3_3\patched\fmx;..\..\komponen\alcinoe-master-lates\references\embarcadero\rio\10_3_3\patched\rtl\ios;..\..\komponen\alcinoe-master-lates\references\embarcadero\rio\10_3_3\patched\rtl\android;..\..\komponen\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\fmx;..\..\komponen\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\rtl\ios;..\..\komponen\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\rtl\android;..\..\komponen\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\rtl\osx;..\..\komponen\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\rtl\net;..\..\komponen\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\rtl\common;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_UnitSearchPath>..\..\component\alcinoe-master-lates\references\embarcadero\rio\10_3_3\patched\fmx;..\..\component\alcinoe-master-lates\references\embarcadero\rio\10_3_3\patched\rtl\ios;..\..\component\alcinoe-master-lates\references\embarcadero\rio\10_3_3\patched\rtl\android;..\..\component\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\fmx;..\..\component\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\rtl\ios;..\..\component\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\rtl\android;..\..\component\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\rtl\osx;..\..\component\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\rtl\net;..\..\component\alcinoe-master-lates\references\embarcadero\rio\10_3_3\originals\rtl\common;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Android)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;FMXComponents;tethering;FlexCel_Report;FireDACDBXDriver;MobilePermissions;VyDVSBFMXScroll;RESTBackendComponents;bindengine;CloudService;remotedb;DataSnapClient;bindcompdbx;IndyIPServer;sparkle;tmsbcl;IndySystem;fmxFireDAC;FlexCel_XlsAdapter;soaprtl;DbxCommonDriver;xmlrtl;soapmidas;DataSnapNativeClient;rtl;DbxClientDriver;IndyIPClient;TMSLoggingPkgCoreDXE12;aurelius;DataSnapProviderClient;RESTComponents;DBXInterBaseDriver;FlexCel_Pdf;emsclientfiredac;DataSnapFireDAC;HsBarcodeFmx2DRun;TMSScripter;bindcompfmx;fmx;FireDACIBDriver;dbexpress;IndyCore;xdata;dsnap;DataSnapCommon;emsclient;FireDACCommon;soapserver;TMSLoggingPkgFMXDXE12;FireDACCommonDriver;inet;IndyIPCommon;FireDAC;FireDACSqliteDriver;ibmonitor;FlexCel_Core;ibxpress;ibxbindings;FireDACDSDriver;CustomIPTransport;fgx;bindcomp;dbxcds;FlexCel_Render;dsnapxml;dbrtl;IndyProtocols;$(DCC_UsePackage)</DCC_UsePackage>
@@ -552,6 +552,16 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="Android64\Debug\colors.xml" Configuration="Debug" Class="Android_Colors">
+                    <Platform Name="Android64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Android64\Debug\AndroidManifest.xml" Configuration="Debug" Class="ProjectAndroidManifest">
+                    <Platform Name="Android64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="$(BDS)\bin\Artwork\Android\FM_NotificationIcon_24x24.png" Configuration="Debug" Class="Android_NotificationIcon24">
                     <Platform Name="Android64">
                         <RemoteName>ic_notification.png</RemoteName>
@@ -559,16 +569,6 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="Android64\Debug\styles.xml" Configuration="Debug" Class="AndroidSplashStyles">
-                    <Platform Name="Android64">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Android64\Debug\colors.xml" Configuration="Debug" Class="Android_Colors">
-                    <Platform Name="Android64">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Android64\Debug\AndroidManifest.xml" Configuration="Debug" Class="ProjectAndroidManifest">
                     <Platform Name="Android64">
                         <Overwrite>true</Overwrite>
                     </Platform>
