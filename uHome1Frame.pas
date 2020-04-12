@@ -6,7 +6,8 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
   FMX.Objects, FMX.Controls.Presentation, FMX.Edit, FMX.Layouts, ALFmxLayouts,
-  ALFmxObjects, ALFmxEdit, ALCommon, ALFmxStdCtrls, System.Messaging, DW.VirtualKeyboard.Helpers;
+  ALFmxObjects, ALFmxEdit, ALCommon, ALFmxStdCtrls, System.Messaging, DW.VirtualKeyboard.Helpers,
+  FMX.Toast;
 
 type
   TFrameHome1 = class(TFrame)
@@ -40,6 +41,7 @@ type
     Layout1: TLayout;
     ALTrackBar2: TALTrackBar;
     Layout2: TLayout;
+    FMXToast1: TFMXToast;
     procedure ALRectangle1MouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Single);
     procedure ALRectangle1MouseLeave(Sender: TObject);
@@ -47,6 +49,7 @@ type
       const OldViewportPosition, NewViewportPosition: TPointF);
     procedure ALTrackBar1Tracking(Sender: TObject);
     procedure ALTrackBar2Tracking(Sender: TObject);
+    procedure FrameResize(Sender: TObject);
   private
     { Private declarations }
     FY: Single;
@@ -305,13 +308,23 @@ begin
   end;
 end;
 
+procedure TFrameHome1.FrameResize(Sender: TObject);
+begin
+  {$IF Defined(ANDROID)}
+  //handle the action bar under lollipop
+  if FVKState then
+    AlVertScrollBox1.AniCalculations.ViewportPosition := AlVertScrollBox1.AniCalculations.MaxTarget.Point;
+  {$ENDIF}
+end;
+
 procedure TFrameHome1.InitFrame;
 begin
   ReleaseFrame;
   TMessageManager.DefaultManager.SubscribeToMessage(TVKStateChangeMessage, VKStateChangeMessageHandler);
   AlVertScrollBox1.AniCalculations.ViewportPosition :=
-    TALPointD.Create(0,AlVertScrollBox1.VScrollBar.Max);
-
+    TALPointD.Create(0,10);
+  AlVertScrollBox1.AniCalculations.ViewportPosition :=
+    TALPointD.Create(0,0);
   ALTrackBar1.Max := AlVertScrollBox1.VScrollBar.Max;
   ALTrackBar2.Max := AlVertScrollBox1.Height;
 end;
@@ -337,22 +350,18 @@ procedure TFrameHome1.VKStateChangeMessageHandler(const Sender: TObject;
 var
   rY: Single;
 begin
-  if TVKStateChangeMessage(M).KeyboardVisible then
+  if TVirtualKeyboard.IsVisible then
   begin
-    if TVirtualKeyboard.IsVisible then
-    begin
-      FVKState := True;
-      Application.ProcessMessages;
-      rY := FY - ALVertScrollBox1.Position.Y;
-      Layout2.Margins.Top := rY;
-      AlVertScrollBox1.AniCalculations.TouchTracking := [];
-    end
-    else
-    begin
-      FVKState := False;
-      Layout2.Margins.Top := 0;
-      AlVertScrollBox1.AniCalculations.TouchTracking := [ttVertical];
-    end;
+    FVKState := True;
+    AlVertScrollBox1.margins.Bottom := FBoundHVK;
+    AlVertScrollBox1.VScrollBar.Value := AlVertScrollBox1.VScrollBar.Max;
+    AlVertScrollBox1.AniCalculations.TouchTracking := [];
+  end
+  else
+  begin
+    FVKState := False;
+    AlVertScrollBox1.margins.Bottom := 0;
+    AlVertScrollBox1.AniCalculations.TouchTracking := [ttVertical];
   end;
 end;
 

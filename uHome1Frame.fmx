@@ -3,6 +3,7 @@ object FrameHome1: TFrameHome1
   Size.Width = 374.000000000000000000
   Size.Height = 745.000000000000000000
   Size.PlatformDefault = False
+  OnResize = FrameResize
   object Text1: TText
     Align = Top
     Margins.Top = 15.000000000000000000
@@ -566,5 +567,13 @@ object FrameHome1: TFrameHome1
       TabOrder = 2
       OnTracking = ALTrackBar2Tracking
     end
+  end
+  object FMXToast1: TFMXToast
+    Align = Leading
+    FontSize = 16.000000000000000000
+    ToastMessage = 'Toast'
+    Delay = 2.000000000000000000
+    Left = 136
+    Top = 592
   end
 end
