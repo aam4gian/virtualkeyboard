@@ -3,459 +3,6 @@ object FrameHome1: TFrameHome1
   Size.Width = 374.000000000000000000
   Size.Height = 745.000000000000000000
   Size.PlatformDefault = False
-  object Text1: TText
-    Align = Top
-    Margins.Top = 15.000000000000000000
-    Position.Y = 15.000000000000000000
-    Size.Width = 374.000000000000000000
-    Size.Height = 50.000000000000000000
-    Size.PlatformDefault = False
-    Text = 'Home-1'
-    TextSettings.Font.Size = 30.000000000000000000
-  end
-  object ALVertScrollBox1: TALVertScrollBox
-    VScrollBar.Thumb.Fill.Color = x47000000
-    VScrollBar.Thumb.Stroke.Kind = None
-    VScrollBar.Size.Width = 4.000000000000000000
-    VScrollBar.Size.Height = 613.000000000000000000
-    VScrollBar.Size.PlatformDefault = False
-    VScrollBar.TabOrder = 0
-    Align = Client
-    AutoHide = False
-    Size.Width = 374.000000000000000000
-    Size.Height = 613.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 0
-    OnViewportPositionChange = ALVertScrollBox1ViewportPositionChange
-    object ALEdit1: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 11.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 21
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit3: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 828.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 20
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit4: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 785.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 19
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit5: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 742.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 18
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit6: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 699.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 17
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit7: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 656.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 16
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit8: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 613.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 15
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit9: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 570.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 14
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit10: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 527.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 13
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit11: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 484.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 12
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit12: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 441.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 11
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit13: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 398.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 10
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit14: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 355.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 9
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit15: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 312.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 8
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit16: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 269.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 7
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit17: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 226.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 6
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit18: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 183.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 5
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit19: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 140.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 4
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit20: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 97.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 3
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit21: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 54.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 2
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object ALEdit2: TALEdit
-      Align = Top
-      Padding.Left = 10.000000000000000000
-      Margins.Left = 25.000000000000000000
-      Margins.Top = 10.000000000000000000
-      Margins.Right = 40.000000000000000000
-      Margins.Bottom = 10.000000000000000000
-      Position.X = 25.000000000000000000
-      Position.Y = 871.000000000000000000
-      Size.Width = 309.000000000000000000
-      Size.Height = 33.000000000000000000
-      Size.PlatformDefault = False
-      XRadius = 16.500000000000000000
-      YRadius = 16.500000000000000000
-      DefStyleAttr = 'Platform'
-      TabOrder = 22
-      ReturnKeyType = Done
-      TextSettings.Font.Family = 'Nunito Sans'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextPrompt = 'please fill in'
-    end
-    object Layout1: TLayout
-      Align = MostTop
-      Size.Width = 374.000000000000000000
-      Size.Height = 1.000000000000000000
-      Size.PlatformDefault = False
-      TabOrder = 23
-    end
-  end
   object ALRectangle1: TALRectangle
     Align = Bottom
     Fill.Color = claAliceblue
@@ -481,5 +28,457 @@ object FrameHome1: TFrameHome1
       Text = 'SUBMIT'
       TextSettings.Font.Size = 20.000000000000000000
     end
+  end
+  object ALVertScrollBox1: TALVertScrollBox
+    VScrollBar.Thumb.Fill.Color = x47000000
+    VScrollBar.Thumb.Stroke.Kind = None
+    VScrollBar.Size.Width = 4.000000000000000000
+    VScrollBar.Size.Height = 613.000000000000000000
+    VScrollBar.Size.PlatformDefault = False
+    VScrollBar.TabOrder = 0
+    Align = Client
+    AutoHide = False
+    Size.Width = 374.000000000000000000
+    Size.Height = 613.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    OnViewportPositionChange = ALVertScrollBox1ViewportPositionChange
+    object ALEdit1: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 21
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 1'
+    end
+    object ALEdit3: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 827.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 20
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 3'
+    end
+    object ALEdit4: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 784.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 19
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 4'
+    end
+    object ALEdit5: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 741.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 18
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 5'
+    end
+    object ALEdit6: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 698.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 17
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 6'
+    end
+    object ALEdit7: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 655.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 16
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 7'
+    end
+    object ALEdit8: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 612.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 15
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 8'
+    end
+    object ALEdit9: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 569.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 14
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 9'
+    end
+    object ALEdit10: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 526.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 13
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 10'
+    end
+    object ALEdit11: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 483.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 12
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 11'
+    end
+    object ALEdit12: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 440.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 11
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 12'
+    end
+    object ALEdit13: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 397.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 10
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 13'
+    end
+    object ALEdit14: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 354.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 9
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 14'
+    end
+    object ALEdit15: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 311.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 8
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 15'
+    end
+    object ALEdit16: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 268.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 7
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 16'
+    end
+    object ALEdit17: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 225.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 6
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 17'
+    end
+    object ALEdit18: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 182.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 5
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 18'
+    end
+    object ALEdit19: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 139.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 4
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 19'
+    end
+    object ALEdit20: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 3
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 20'
+    end
+    object ALEdit21: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 53.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 2
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 21'
+    end
+    object ALEdit2: TALEdit
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 870.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 22
+      ReturnKeyType = Done
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 2'
+    end
+    object Layout1: TLayout
+      Align = MostTop
+      Size.Width = 374.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 23
+    end
+  end
+  object Text1: TText
+    Align = Top
+    Margins.Top = 15.000000000000000000
+    Position.Y = 15.000000000000000000
+    Size.Width = 374.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Home-1'
+    TextSettings.Font.Size = 30.000000000000000000
   end
 end

@@ -47,7 +47,6 @@ type
     FY: Single;
     FH: Single;
     FBoundHVK: Integer;
-    FVKState: Boolean;
     procedure VKStateChangeMessageHandler(const Sender: TObject; const M: TMessage);
   public
     { Public declarations }
@@ -317,22 +316,22 @@ end;
 
 procedure TFrameHome1.VKStateChangeMessageHandler(const Sender: TObject;
   const M: TMessage);
+  var PadBott, afY: Single;
 begin
   if TVirtualKeyboard.IsVisible then
   begin
-    FVKState := True;
-    Layout1.Margins.Top := AlVertScrollBox1.AniCalculations.ViewportPosition.Y;
-    AlVertScrollBox1.margins.Bottom := FBoundHVK - ALRectangle1.Height - ALRectangle1.Margins.Top;
+    afY := Screen.Size.Height - (FY + FH);
+    PadBott := FBoundHVK - afY;
+    Padding.Bottom := PadBott;
     AlVertScrollBox1.VScrollBar.Value := AlVertScrollBox1.VScrollBar.Max;
     AlVertScrollBox1.AniCalculations.TouchTracking := [];
   end
   else
   begin
-    FVKState := False;
-    Layout1.Margins.Top := 0;
-    AlVertScrollBox1.margins.Bottom := 0;
+    Padding.Bottom := 0;
     AlVertScrollBox1.AniCalculations.TouchTracking := [ttVertical];
   end;
+  InitEditPos(AlVertScrollBox1.AniCalculations.ViewportPosition.Y);
 end;
 
 end.
