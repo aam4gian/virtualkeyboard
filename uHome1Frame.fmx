@@ -50,7 +50,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 10.000000000000000000
+      Position.Y = 60.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -70,7 +70,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 827.000000000000000000
+      Position.Y = 975.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -90,7 +90,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 784.000000000000000000
+      Position.Y = 932.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -110,7 +110,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 741.000000000000000000
+      Position.Y = 889.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -130,7 +130,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 698.000000000000000000
+      Position.Y = 846.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -150,7 +150,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 655.000000000000000000
+      Position.Y = 803.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -170,7 +170,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 612.000000000000000000
+      Position.Y = 760.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -190,7 +190,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 569.000000000000000000
+      Position.Y = 717.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -210,7 +210,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 526.000000000000000000
+      Position.Y = 674.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -230,7 +230,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 483.000000000000000000
+      Position.Y = 631.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -250,7 +250,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 440.000000000000000000
+      Position.Y = 588.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -270,7 +270,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 397.000000000000000000
+      Position.Y = 545.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -290,7 +290,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 354.000000000000000000
+      Position.Y = 502.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -310,7 +310,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 311.000000000000000000
+      Position.Y = 459.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -330,7 +330,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 268.000000000000000000
+      Position.Y = 416.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -350,7 +350,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 225.000000000000000000
+      Position.Y = 373.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -370,7 +370,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 182.000000000000000000
+      Position.Y = 232.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -390,7 +390,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 139.000000000000000000
+      Position.Y = 189.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -410,7 +410,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 96.000000000000000000
+      Position.Y = 146.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -430,7 +430,7 @@ object FrameHome1: TFrameHome1
       Margins.Top = 10.000000000000000000
       Margins.Right = 40.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 53.000000000000000000
+      Position.Y = 103.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -451,7 +451,7 @@ object FrameHome1: TFrameHome1
       Margins.Right = 40.000000000000000000
       Margins.Bottom = 10.000000000000000000
       Position.X = 25.000000000000000000
-      Position.Y = 870.000000000000000000
+      Position.Y = 1018.000000000000000000
       Size.Width = 309.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
@@ -467,8 +467,29 @@ object FrameHome1: TFrameHome1
     object Layout1: TLayout
       Align = MostTop
       Size.Width = 374.000000000000000000
+      Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 23
+    end
+    object ALMemo1: TALMemo
+      Align = Top
+      Padding.Left = 10.000000000000000000
+      Margins.Left = 25.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 25.000000000000000000
+      Position.Y = 275.000000000000000000
+      Size.Width = 309.000000000000000000
+      Size.Height = 88.000000000000000000
+      Size.PlatformDefault = False
+      XRadius = 16.500000000000000000
+      YRadius = 16.500000000000000000
+      DefStyleAttr = 'Platform'
+      TabOrder = 24
+      TextSettings.Font.Family = 'Nunito Sans'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextPrompt = 'please fill in 1'
+      TextPromptColor = claGray
     end
   end
   object Text1: TText

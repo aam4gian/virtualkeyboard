@@ -7,7 +7,7 @@ uses
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
   FMX.Objects, FMX.Controls.Presentation, FMX.Edit, FMX.Layouts, ALFmxLayouts,
   ALFmxObjects, ALFmxEdit, ALCommon, ALFmxStdCtrls, System.Messaging,
-  DW.VirtualKeyboard.Helpers;
+  DW.VirtualKeyboard.Helpers, ALFmxMemo;
 
 type
   TFrameHome1 = class(TFrame)
@@ -37,6 +37,7 @@ type
     ALRectangle1: TALRectangle;
     Text2: TText;
     Layout1: TLayout;
+    ALMemo1: TALMemo;
     procedure ALRectangle1MouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Single);
     procedure ALRectangle1MouseLeave(Sender: TObject);
